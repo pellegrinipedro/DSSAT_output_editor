@@ -1,0 +1,9 @@
+import os
+import re
+
+carpetaIN = 'G:/Mi unidad/1.Doctorado/1.Papers/regiones_stress/simulaciones/experimentos/Inputs_ORIGINAL/'
+carpetaOUT = 'G:/Mi unidad/1.Doctorado/1.Papers/regiones_stress/simulaciones/experimentos/Outputs/Agosto2019/'
+archivosIN = os.listdir(carpetaIN) #lista con los nombres de los archivos input
+if 'desktop.ini' in archivosIN:
+    archivosIN.remove('desktop.ini')
+filenumber = len(archivosIN)
