@@ -2,6 +2,7 @@ setwd('G:/Mi unidad/1.Doctorado/1.Papers/regiones_stress/simulaciones/floracion/
 rm(list=ls())
 library(tidyr);library(cluster); library(NbClust); library(optpart)
 
+#list .OSU files.
 files <-list.files(path =("G:/Mi unidad/1.Doctorado/1.Papers/regiones_stress/simulaciones/floracion/somero_2020"), pattern = ".OSU",all.files=T,full.names=T)  
 
 tablaFlo_loc <- NULL
