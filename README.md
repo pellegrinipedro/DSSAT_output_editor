@@ -1,4 +1,3 @@
-# Environmental-Types
-Work steps to manage DSSAT simulations and getting clusters of patterns
+# DSSAT output editor
 
-In this respository I'll put scripts to handle lots of DSSAT experiments outputs in order to get clusters of Water Stress Index (WSI). This clusters are usually call Environment Types.
+In this repository I'll put R scripts to handle some of DSSAT outputs files. These files are space separated, which makes data analysis a bit tricky. My scripts intend to transform these files in data frames.
